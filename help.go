@@ -29,7 +29,3 @@ If the file s is completely empty (0 bytes long), envdir removes an  environment
 named s if one exists, without adding a new variable.`)
 	fmt.Println("")
 }
-
-func printUsage() {
-	fmt.Println(au.BrightGreen(au.Bold("USAGE:")), "go-envdir /env/dir command")
-}
