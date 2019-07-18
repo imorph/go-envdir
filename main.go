@@ -23,7 +23,7 @@ func main() {
 		printHelp()
 	}
 
-	// checking paramaters and files
+	// checking parameters and files
 	flag.Parse()
 	inParams := flag.Args()
 	exitOnErr111(checkInParams(inParams))
